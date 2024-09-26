@@ -1,2 +1,6 @@
 Ahoj2
+<<<<<<< HEAD
 Ahoj
+=======
+Aoj
+>>>>>>> new_feature
