@@ -6,36 +6,90 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="Nadpis">Nadpis</h1>
-    <p> <b>Lorem, ipsum </b> <i>dolor</i> <strong>sit amet consectetur</strong> adipisicing <sup>elit</sup>. Hic <sub>debitis</sub> sunt <big>minus</big> aliquam <small>fugiat</small> velit, ratione rerum iste dolorem inventore vel dolores deserunt asperiores, assumenda sequi temporibus et nemo. Autem.</p>
+    <h1 id="Nadpis">Základy HTML</h1>
+
+<nav>
+    <a href="#entity">Html entity</a>
+    <a href="#Text">Html text</a>
+    <a href="#Seznamy">Html Seznamy</a>
+    <a href="#Element">Html Element</a>
+    <a href="#obrazek">Html obrazek</a>
+    <a href="#video">Html video</a>
+    <a href="#youtube">Html youtube</a>
+    <a href="aboutus.html">O nás</a>
+</nav>
+
+    <hr>
+
+
+    <section id="entity">
+        <h2>Entity</h2>
+        <p>&lt;&gt; &amp; &nbsp;</p>
+    </section>
+
+<section id="Text">
+    <h2>Text</h2>
+    <p> <b>Lorem, ipsum </b> <i>dolor</i> <strong>sit amet consectetur</strong> adipisicing <sup>elit</sup>. Hic <sub>debitis</sub> sunt <big>minus</big> aliquam <small>fugiat</small> velit,  <br> <br> &nbsp; &nbsp; ratione rerum iste  dolorem inventore vel dolores deserunt asperiores, assu&nbsp;menda sequi temporibus et nemo. Autem.</p>
+</section>
+
+<hr>
+<section id="Seznamy">
+    <h2>Seznamy</h2>
     
+    <h3>číslovaný</h3>
     <ol type="I"> 
         <li>jedna</li>
         <li>dva</li>    
         <li>tři</li>
 
     </ol>
-
+<h3> nečíslovaný</h3>
     <ul>
         <li>jedna</li>
         <li>dva</li>    
         <li>tři</li>
     </ul>
+</section>
+<hr>
+<section id="Element">
+    <select>
+        <h2>Element pro výběr hodnot</h2>
+        <option value="1">jedna</option>
+        <option value="2">dva</option>
+        <option value="3">tři</option>
 
+    </select>
+</section>
+   
+<hr>
+  <section id="obrazek">
+    <h2>Obrázek s odkazem</h2>
     <a href="aboutus.html"><img height ="300" width ="300" src="obrazek.jpg" alt="Obrázek" title="Obrázek zvláštního dítěte"></a>
-    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQn3He6ajbB9G1Gjfp-QV9niCD0HWaeXEew&s" alt="příroda">
+  </section>
+
+
     <h2 id="lkjhg">lkjhg</h2>
     <h3 id="lkkjhgfd">lkkjhgfd</h3>
 
     
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQn3He6ajbB9G1Gjfp-QV9niCD0HWaeXEew&s" alt="příroda">
+    <hr>
+   <section id="video">
+    <h2>video ze souboru</h2>
     <a href="aboutus.html"><video src="video.mp4" autoplay controls>
         Video is not supported by your browser.
     </video>
-
+   </section>
+   <hr>
+<section>
+    <h2>odkaz na jinou stranku</h2>
     <a href="stranka.html"> <img height = "300" width = "600" src ="image.jpg" alt="image" title="Vlajka ČR"></a>
-    
-     
+</section>
+<hr>
+    <section id="youtube">
+        <h2>video z youtube</h2>¨
+        <iframe src="https://www.youtube.com/embed/wVyu7NB7W6Y" height = "700" width = "1300" frameborder="0"></iframe>
+    </section>
+    <hr>
 </body>
 </html>
