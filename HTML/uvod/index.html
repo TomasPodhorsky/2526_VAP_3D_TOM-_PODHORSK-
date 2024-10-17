@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <h1 id="Nadpis">Základy HTML</h1>
@@ -16,6 +22,8 @@
     <a href="#obrazek">Html obrazek</a>
     <a href="#video">Html video</a>
     <a href="#youtube">Html youtube</a>
+    <a href="#tabulky">Html tabulky</a>
+    <a href="#rozvrh">Html rozvrh</a>
     <a href="aboutus.html">O nás</a>
 </nav>
 
@@ -90,6 +98,229 @@
         <h2>video z youtube</h2>¨
         <iframe src="https://www.youtube.com/embed/wVyu7NB7W6Y" height = "700" width = "1300" frameborder="0"></iframe>
     </section>
-    <hr>
+<br>
+<hr>
+    <section id="tabulky">
+        <table>
+            <thead>
+                <tr>
+                    <th> <!-- nadpis v tabulce-->
+                        Jméno
+                    </th>
+                    <th colspan="2">
+                        Příjmení
+                    </th>
+
+            </thead>
+           <tbody>
+        </tr>
+        <tr>
+            <td>
+                Jan
+            </td>
+            <td>
+                Novak
+            </td>
+            <td>
+                jan.novak@gmail.com
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Jana
+            </td>
+            <td>
+                Novakova
+            </td>
+            <td rowspan="2">
+                jana.novakova@gmail.com
+            </td>
+        </tr>
+        <tr>
+            <td> <!-- data v tabulce -->
+                Jana
+            </td>
+            <td>
+                Novakova
+            </td>
+            <td>
+              
+            </td>
+        </tr>
+           </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Konec tabulky</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+<br>
+    <section id="rozvrh">
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    Den
+                </th>
+                <td>
+                    1.H
+                </td>
+                <td>
+                    2.H
+                </td>
+                <td>
+                    3.H
+                </td>
+                <td>
+                    4.H
+                </td>
+                <td>
+                    5.H
+                </td>
+                <td>
+                    6.H
+                </td>
+                <td>
+                    7.H
+                </td>
+            </tr>
+            </thead>
+            <tbody></tbody>
+            <tr>
+                <th>
+                    Po
+                </th>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    AJ
+                </td>
+                <td>
+                    M
+                </td>
+                <td>
+                    POS
+                </td>
+                <td>
+                    OPS
+                </td>
+                <td>
+                    OPS
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Po
+                </th>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    AJ
+                </td>
+                <td>
+                    M
+                </td>
+                <td>
+                    POS
+                </td>
+                <td>
+                    OPS
+                </td>
+                <td>
+                    OPS
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Po
+                </th>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    AJ
+                </td>
+                <td>
+                    M
+                </td>
+                <td>
+                    POS
+                </td>
+                <td>
+                    OPS
+                </td>
+                <td>
+                    OPS
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Po
+                </th>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    AJ
+                </td>
+                <td>
+                    M
+                </td>
+                <td>
+                    POS
+                </td>
+                <td>
+                    OPS
+                </td>
+                <td>
+                    OPS
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Po
+                </th>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    ASW
+                </td>
+                <td>
+                    AJ
+                </td>
+                <td>
+                    M
+                </td>
+                <td>
+                    POS
+                </td>
+                <td>
+                    OPS
+                </td>
+                <td>
+                    OPS
+                </td>
+            </tr>
+
+        </tbody>
+        </table>
+    </section>
+
 </body>
 </html>
