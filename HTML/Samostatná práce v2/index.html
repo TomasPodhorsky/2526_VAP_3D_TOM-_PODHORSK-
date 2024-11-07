@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správa knihovny</title>
+    <style>
+        table, tr, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<h1>
+    Správa knihovny
+</h1>
+<hr>
+<body>
+    <section id="formular">
+        <h2>Formulář</h2>
+    <form action="data.html" method="get">
+        <label for="book-name">Název:</label>
+        <input name="Book name" type="text" id="book-name" required placeholder="Název knihy">
+        <br>
+        <label for="author-name">Autor:</label>
+        <input name="Author name" type="text" id="author-name" required placeholder="Autor knihy">
+        <br>
+        <label for="release-date">Rok vydání:</label>
+        <input name="Release date" type="number" id="release-date"  min="1500">
+        <br>
+        <label for="Genre">Žánr:</label>
+        <select name="Genre">
+            <option value=""></option>
+            <option value="Román">Román</option>
+            <option value="Sci-fi">Sci-fi</option>
+            <option value="Poezie">Poezie</option>
+            <option value="Klasika">Klasika</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Horor">Horor</option>
+            <option value="Drama">Drama</option>
+        </select>
+        <br>
+        <label for="">Dostupnost:</label>
+        <input name="Availability" type="checkbox" >
+        <br>
+    <label for="">Odeslat formulář:</label>
+        <input type="submit" value="Odeslat">
+
+    </form>
+    </section>
+    <hr>
+<h2>Dostupnost knih</h2>
+<section id="tabulka">
+    <table>
+        <thead>
+        <tr>
+            <th>Název knihy</th>
+            <th>Autor</th>
+            <th>Rok vydání</th>
+            <th>Žánr</th>
+            <th>Dostupnost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Metro 2033</td>
+            <td>Dmitrij Gluchovskij</td>
+            <td>2002</td>
+            <td>Román</td>
+            <td>Skladem</td>
+        </tr>
+    
+            <tr>
+                <td>Romeo a Julie</td>
+                <td>William Shakespeare</td>
+                <td>1597</td>
+                <td>Tragédie</td>
+                <td>Brzy bude dostupná</td>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>1949</td>
+                <td>Sci-fi</td>
+                <td>Skladem</td>
+            </tr>
+        </tbody>
+     </table>
+</section>
+</body>
+   
+</html>
