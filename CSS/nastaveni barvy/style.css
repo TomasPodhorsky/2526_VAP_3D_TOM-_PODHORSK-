@@ -3,5 +3,6 @@
 }
 
 h1 {
- color: rgba(63, 110, 95, 0.795);
+ color: black; /* nebo #ff0000, #ff00, #fac např */
+background-color: red;
 }
