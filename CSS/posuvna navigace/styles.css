@@ -1,0 +1,28 @@
+.container{
+    height: 3000px;
+}
+
+div{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav{
+    text-align: center;
+    position: sticky;
+    left: 100px;
+    top: 100px;
+    background-color: aqua;
+    font-size: 1.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+p{
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
