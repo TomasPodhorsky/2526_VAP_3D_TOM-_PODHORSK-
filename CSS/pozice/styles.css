@@ -16,7 +16,7 @@ div {
 }
 
 #static {
-    position: static;
+    position: static;  /* ignoruje nastaveni nejake */
     left: 100px;
     top: 100px;
     background-color: blue;
@@ -26,13 +26,13 @@ div {
 #relative {
     left: 100px;
     top: 100px;
-    position: relative;
+    position: relative;     /* urcime jakemu posunu od zakladni pozice bude */
     background-color: red;
     color: white;
 }
 
 #fixed {
-    position: fixed;
+    position: fixed;  /*urcime presnou pozici elementu*/
     left: 1000px;
     top: 10px;
     background-color: green;
@@ -40,7 +40,7 @@ div {
 }
 
 #absolute {
-    position: absolute;
+    position: absolute; /*urcime pozici vuci cele strance*/
     left: 1000px;
     top: 10px;
     background-color: yellow;
@@ -48,7 +48,7 @@ div {
 }
 
 #sticky {
-    position: sticky;
+    position: sticky;   /**/
     left: 10px;
     top: 100px;
     background-color: purple;

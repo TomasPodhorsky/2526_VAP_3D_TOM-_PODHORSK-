@@ -1,0 +1,77 @@
+.inline-container{
+    border: 1px solid black
+
+}
+
+.inline-block-container{
+    border: 1px solid black
+
+}
+
+.block-container{
+    border: 1px solid black
+
+}
+
+.flex-container{
+    border: 1px solid black
+
+}
+
+.inline-div{
+    display: inline;
+    background-color: black;
+
+}
+
+.inline-block-div{
+    display: inline-block;
+    background-color: red;
+
+}
+
+.block-div{
+    display: block;
+    background-color: green;
+
+}
+
+.flex-div{
+    background-color: blue;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inline-div, .inline-block-div, .block-div, .flex-div{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: grey;
+    font-family: monospace;
+    font-size: 2rem;
+    transition: background-color 3s;
+}
+
+.inline-div:hover, .inline-block-div:hover, .block-div:hover, .flex-div:hover{
+    background-color: purple;
+}
+
+
+@keyframes animace {
+    0%{width: 100px;}
+    100%{width: 200px;}
+}
+
+
+.inline-div, .inline-block-div, .block-div, .flex-div{
+    animation-name: animace;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
