@@ -1,0 +1,34 @@
+@property --item-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: green;
+}
+
+.container{
+    position: relative;
+    --row-count: 3;
+    --column-count: 3;
+    aspect-ratio: 1/1 ;
+    width: 700px;
+    background-color: black;
+}
+
+.item{
+    position: absolute;
+    --index: 0;
+    --width: calc(100% / var(--column-count));
+    --height: calc(100% / var(--row-count));
+    left: calc(mod(var(--index), var(--row-count)) * var(--width));
+    top: calc(round(down, calc(var(--index) / var(--column-count)),1) * var(--height));
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--item-color) ;
+    animation: posAnim 3s step-end 1s infinite;
+    
+}
+
+@keyframes posAnim {
+    0%{--index: 0}
+    50%{--index: 7}
+    90%{--index:3}
+}
