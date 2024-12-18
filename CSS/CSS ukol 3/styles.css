@@ -1,0 +1,42 @@
+@property --main-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: green;
+}
+
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: green;
+}
+
+@property --background-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: gray;
+}
+
+:root{
+    background-color: var(--background-color)
+}
+
+nav{
+    background-color: blue;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin: 20px;
+}
+
+a:hover{
+    color: orange;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: fuchsia;
+}
+
