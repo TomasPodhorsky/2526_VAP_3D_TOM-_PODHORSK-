@@ -1,0 +1,37 @@
+h1::first-letter{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+}
+
+h1::after{
+    content: "-";
+}
+
+
+p::after{
+    font-size: 2rem;
+    content: close-quote;
+}
+
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+div{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px inset black; /* x, y , rozmazani , roztahnuti, dovnitr nebo dovnejsku*/
+}
+
+img{
+    margin-top: 2rem;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    filter: drop-shadow(0px 0px 10px greenyellow); /*pozice a o kolik se mi to rozmaze se vklada*/
+}
