@@ -1,0 +1,18 @@
+table{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    font-size: 1.2rem;
+}
+ 
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+ 
+td {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}

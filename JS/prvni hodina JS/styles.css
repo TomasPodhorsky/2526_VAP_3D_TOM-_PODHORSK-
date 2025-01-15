@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+.cerveny_div{
+    background-color: red;
+}
+
+.modry_div{
+    background-color: blue;
+}
