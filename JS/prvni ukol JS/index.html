@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1 id="nadpis">Aplikace</h1>
+
+    <section class="text">
+        <label for="Textarea" class="label">Text pro nadpis</label>
+        <input type="text" name="" id="Textarea" placeholder="Zadejte text pro nadpis">
+    </section>
+
+    <section class="color">
+        <label for="Colorarea" class="label">Výběr barvy nadpisu</label>
+        <input type="color" name="" id="Colorarea">
+    </section>
+    
+<section class="select">
+    <label for="Selectarea" class="label">Výběr možností úrovně nadpisu</label>
+    <select id="Selectarea">
+        <option value="1">H1</option>
+        <option value="2">H2</option>
+        <option value="3">H3</option>
+        <option value="4">H4</option>
+        <option value="5">H5</option>
+        <option value="6">H6</option>
+    </select>
+</section>
+    
+    <section class="button">
+        <button onclick="kliknuti()">Vytvořit nadpis</button>
+    </section>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
