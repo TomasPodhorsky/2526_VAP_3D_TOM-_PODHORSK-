@@ -1,0 +1,11 @@
+:root{
+    background-color: darkgray;
+}
+
+#result{
+    margin-top: 25px;
+}
+
+.text, .color, .select, .button{
+margin-bottom: 10px;
+}
