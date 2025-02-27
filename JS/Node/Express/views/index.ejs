@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>soubor ze serveru</h1>
+    <% if(locals.name) {%> 
+    <h1>Ahoj uzivateli neznamy uzivateli <%= name   %></h1>
+    <% } %>
+    <form action="/" method="post">
+        <input type="text" name="name"> 
+        <button type="submit">Odeslat</button>
+    </form>
+</body>
+</html>
